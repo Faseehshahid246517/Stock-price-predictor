@@ -55,13 +55,7 @@ Open the main.py file in your code editor.
 Locate the configuration section at the top:
 
 Python
-
-# --- CONFIGURATION ---
-API_KEY_ID = "YOUR_API_KEY_HERE"
-SECRET_KEY_ID = "YOUR_SECRET_KEY_HERE"
-Replace the placeholder text with your actual API Key ID and Secret Key from the Alpaca dashboard.
-
-🚀 How to Run
+ How to Run
 Execute the script from your terminal:
 
 Bash
