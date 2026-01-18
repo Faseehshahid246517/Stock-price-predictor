@@ -112,7 +112,7 @@ def main_menu():
             
             today = datetime.now()
             default_start = (today - timedelta(days=1095)).strftime('%Y-%m-%d')
-            default_end = today.strftime('%Y-%m-%d')
+            default_end = (today - timedelta(days=10)).strftime('%Y-%m-%d')
             default_target = (today + timedelta(days=1)).strftime('%Y-%m-%d')
 
             start_date = get_input_or_default("Enter Training Start Date", default_start)
