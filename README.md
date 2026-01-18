@@ -41,7 +41,7 @@ The model does not rely solely on price. It is trained on a multi-dimensional fe
 
 ### Step 1: Clone the Repository
 ```bash
-git clone [https://github.com/your-username/stock-forecaster.git](https://github.com/your-username/stock-forecaster.git)
+git clone [https://github.com/Faseehshaid246517/stock-forecaster.git](https://Faseehshaid246517/stock-forecaster.git)
 cd stock-forecaster
 Step 2: Install Dependencies
 Install the required Python libraries using pip:
