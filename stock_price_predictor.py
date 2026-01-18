@@ -15,14 +15,8 @@ from sklearn.metrics import mean_absolute_error
 
 load_dotenv()
 
-# Get the keys securely
 API_KEY_ID = os.getenv("ALPACA_API_KEY")
 SECRET_KEY_ID = os.getenv("ALPACA_SECRET_KEY")
-
-# Check if keys are missing
-if not API_KEY_ID or not SECRET_KEY_ID:
-    print("Error: API Keys not found! Make sure you created the .env file.")
-    exit()
 
 class MarketForecaster:
     def __init__(self, key_id, secret_id):
